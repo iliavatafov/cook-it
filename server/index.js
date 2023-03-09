@@ -16,5 +16,5 @@ async function start() {
   app.use(auth());
   routesConfig(app);
 
-  app.listen(3000, () => console.log(`REST service runing on port 3000...`));
+  app.listen(5000, () => console.log(`REST service runing on port 5000...`));
 }
